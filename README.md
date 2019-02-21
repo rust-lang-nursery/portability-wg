@@ -2,8 +2,8 @@
 
 > Coordination repository of the portability Working Group (WG)
 
-This repository [issue tracker] is used by the embedded WG to coordinate efforts towards making Rust
-a great choice for embedded development.
+This repository [issue tracker] is used by the portability WG to coordinate efforts towards making Rust
+portable to new platforms.
 
 [issue tracker]: https://github.com/rust-lang-nursery/portability-wg/issues
 
