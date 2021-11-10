@@ -31,7 +31,7 @@ Some concrete goals:
 - [@alfriadox](https://github.com/alfriadox)
 - [@bossmc](https://github.com/bossmc)
 - [@Ericson2314](https://github.com/Ericson2314)
-- [@jethrogb](https://github.com/jethrogb) (lead, all things SGX)
+- [@jethrogb](https://github.com/jethrogb) (all things SGX)
 - [@le-jzr](https://github.com/le-jzr)
 - [@pierzchalski](https://github.com/pierzchalski)
 - [@ratmice](https://github.com/ratmice)
