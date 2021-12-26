@@ -21,7 +21,9 @@ Some concrete goals:
 
 * Support in `std` for non-Unix, non-Windows platforms.
   * Support for platforms that don’t have or require libc. The `std` API surface is already designed to accomodate this, but not the implementation.
-* Reduced maintenance burden for ports. Porting std today requires touching too many parts of the libraries, and those parts must be maintaned by the std maintainers. In general, day-to-day maintenance should not require dealing with platform-specific code, especially for lesser-maintained ports.
+* Reduced maintenance burden for ports.
+  * Porting std today requires touching too many parts of the libraries, and those parts must be maintaned by the std maintainers. In general, day-to-day maintenance should not require dealing with platform-specific code, especially for lesser-maintained ports.
+  * Porting ecosystem crates, and maintaining them, can't always be expected of upstream crates. On the other hand, having a lot of forks fragments the community. We need to find a good middle ground, quite possibly with additional tooling.
 * Rust developers should be aware when they use non-portable interfaces, so that they can avoid them or at least plan for them.
 * Most of Rust's crate ecosystem should be usable on any platform with ease.
 
